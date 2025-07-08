@@ -1,0 +1,21 @@
+body{
+    background-color: #0c0409;
+    font-family: Bai Jamjuree;
+    color: white;
+    
+}
+
+footer{
+    background-color: #bf3f8f;
+    color: #000000;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 2rem;
+}
+
+footer p {
+    text-align: center;
+    font-size: 0.7rem;
+    margin-top: 0.5rem;
+}
