@@ -1,6 +1,6 @@
 :root {
     --text-color: #DBE4EF;
-    --card-front-color: #144480;
+    --card-front-color: #870202;
     --card-back-color: #00F4BF;
 }
 
@@ -40,7 +40,14 @@ body{
     font-size: 1vw;
 }
 
+.cartao__conteudo p {
+    margin-top: 1rem;
+    padding: 2rem;
+}
 
+.cartao__conteudo__pergunta {
+    color: var(--text-color);
+}
 
 
 footer{
