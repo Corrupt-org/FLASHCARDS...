@@ -1,17 +1,23 @@
-fazCard(
-    "Arte"
-    "Quem pintou A Mona Lisa?"
-    "Leonardo da Vinci foi o mestre renascentista que pintou A Mona Lisa"
+criaCartao(
+    'Programação',
+    'O que é Python?',
+    'O Python é uma linguagem de programação'
 )
 
-fazCard(
-    "Arte"
-    "Qual a função da arte?"
-    "A arte tem funções como estética (prazer visual), expressiva, simbólica (comunicação) e crítica"
+criaCartao(
+    'Geografia',
+    'Qual a capital da França?',
+    'A capital da França é Paris'
 )
 
-fazCard(
-    "Arte"
-    "Qual a nacionalidade de William Shakespeare?"
-    "Inglesa, tendo nascido e falecido em Stratford-upon-Avon, Inglaterra."
+criaCartao(
+    'Programação',
+    'O que é uma função?',
+    'Uma função é um bloco de código que executa alguma tarefa'
+)
+
+criaCartao(
+    'Lingua inglesa',
+    'Como se diz oi em Inglês?',
+    'Oi em ingles é HI (RAI)'
 )
