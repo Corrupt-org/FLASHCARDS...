@@ -1,4 +1,4 @@
-function criaCartao(categoria, pergunta, resposta) {
+function fazCard(categoria, pergunta, resposta) {
     let container = document.getElementById('container')
     let cartao = document.createElement('article')
     cartao.className = 'cartao'
@@ -14,6 +14,13 @@ function criaCartao(categoria, pergunta, resposta) {
     </div>
     </div>
     `
+    let respEstVisi = false
+
+    function viraCard() {
+
+        respEstVisi = !respEstVisi
+    }
+
     container.appendChild(cartao)
 
 }
