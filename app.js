@@ -19,7 +19,9 @@ function fazCard(categoria, pergunta, resposta) {
     function viraCard() {
 
         respEstVisi = !respEstVisi
+        cartao.classList.toggle('active', respEstVisi)
     }
+    cartao.addEventListener('click', viraCard)
 
     container.appendChild(cartao)
 
